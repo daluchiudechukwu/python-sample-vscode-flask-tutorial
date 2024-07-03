@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: mynewagentpool
 strategy:
   matrix:
     Python27:
